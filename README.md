@@ -9,6 +9,7 @@
 ## Recursion in Cpp
 Recursion in C++ is a process where a function calls itself directly or indirectly to solve a problem. It works by breaking a large problem into smaller subproblems of the same type. Every recursive function must have a base case to stop the recursion and prevent infinite loops. The function keeps calling itself until the base case is reached, after which it starts returning values back through the call stack. Recursion is often used in problems like factorial, Fibonacci series, tree traversals, and backtracking. However, it can be memory-intensive due to multiple function calls stored in the stack.
 
+```
 #include <iostream>
 using namespace std;
 
@@ -29,7 +30,7 @@ int main() {
     cout << function_name(/* arguments */);
     return 0;
 }
-
+```
 
 # Key Points:-
 
